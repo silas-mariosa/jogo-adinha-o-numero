@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@100&display=swap');
+
+:root{
+    --fonte-family: 'Montserrat', sans-serif;
+    --cor-fundoo: #2155CD;
+    --cor-primaria: #E8F9FD;
+    --cor-secundaria: #79DAE8;
+}
+
+body{
+    background-color: var(--cor-fundoo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-family);
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 4em;
+}
+h3{
+    font-size: 3em;
+    margin-top: 20px;
+}
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    border: 4px solid var(--cor-secundaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar{
+    padding: 1em 1em;
+    font-size: 1em;
+    border: 0;
+    background: var(--cor-primaria);
+    margin-top: 2em;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 574px) {
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    .mensagem{
+        font-size: 1.5em;
+        margin-top: 40px;
+    }
+    
+    .box{
+        border: 4px solid var(--cor-secundaria);
+        display: inline-block;
+        font-size: 4em;
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .btn-jogar{
+        padding: 1.3em 1.3em;
+        font-size: 1.5em;
+        border: 0;
+        background: var(--cor-primaria);
+        margin-top: 2em;
+        border-radius: 5px;
+    }
+}
